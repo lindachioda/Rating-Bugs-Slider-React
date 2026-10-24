@@ -4,7 +4,7 @@ import Slide from "./Slide";
 
 
 const Slider = () => {
-    const[recensioni, setRecensioni]=useState(data)
+    const[recensioni]=useState(data)
     const[active, setActive]=useState(0)
     console.log(recensioni)
 
